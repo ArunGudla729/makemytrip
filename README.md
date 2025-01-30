@@ -20,3 +20,4 @@ MakeMyTrip-Clone/
 ├── 📄 script.js (JavaScript for interactivity)
 ├── 📂 images/ (Destination images)
 ├── 📄 README.md (Project documentation)
+
