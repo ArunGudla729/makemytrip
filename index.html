@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="styles.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+
+
+<header id="mmt-header">
+
+    <nav class="nav-bar">
+
+        <!-- MMT Logo  -->
+        <div class="nav-logo">
+            <div class="logo"></div>
+        </div>
+
+        <!-- List Your Properties  -->
+        <div class="property">
+
+            <div class="property-icon">
+                <i class="fa-solid fa-house"></i>
+            </div>
+
+            <div class="property-detail">
+                <span id="list-property">List Your Property</span>
+                <span id="grow-business">Grow your business!</span>
+            </div>
+
+        </div>
+
+        <!-- My Biz  -->
+
+        <div class="my-biz">
+            <div class="my-biz-icon-container">
+                <div class="my-biz-icon"></div>
+            </div>
+            <div class="my-biz-detail">
+                <span id="my-biz-intro">Introducing myBiz</span>
+                <span id="my-biz-business">Business Travel Solution</span>
+            </div>
+        </div>
+
+        <!-- My Trips  -->
+
+        <div class="my-trip">
+
+            <div class="my-trip-icon">
+                <i class="fa-solid fa-suitcase-rolling"></i>
+            </div>
+
+            <div class="my-trip-detail">
+                <span id="my-trip-intro">My Trips</span>
+                <span id="my-trip-booking">Manage your bookings</span>
+            </div>
+        </div>
+
+        <!-- Account Login  -->
+
+        <div class="my-account">
+
+            <div class="my-account-mmt-icon">
+            </div>
+
+            <div class="my-account-detail">
+                <span id="my-account-intro">Login or Create Account</span>
+            </div>
+
+            <div class="my-account-mmt-drop-down-icon">
+                <i class="fa-solid fa-angle-down"></i>
+            </div>
+
+        </div>
+
+        <!-- Country  -->
+
+        <div class="my-country">
+
+            <div class="my-country-icon">
+            </div>
+
+            <div class="my-country-detail">
+                <span id="my-country-intro">IN | ENG
+                    </span>
+            </div>
+
+            <div class="my-country-mmt-drop-down-icon">
+                <i class="fa-solid fa-angle-down"></i>
+            </div>
+
+        </div>
+
+        <!-- Currency  -->
+
+        <div class="my-currency">
+
+            <div class="my-currency-detail">
+                <span id="my-currency-intro">INR
+                    </span>
+            </div>
+
+            <div class="my-currency-mmt-drop-down-icon">
+                <i class="fa-solid fa-angle-down"></i>
+            </div>
+
+        </div>
+
+
+    </nav>
+
+
+    <nav class="travel-bar">
+        <div class="travel-options-container">
+            
+
+                <div id="travel-flight">
+
+                    <div id="travel-flight-icon">
+                        <i class="fa-solid fa-plane"></i>
+                    </div>
+
+                    <div id="travel-flight-text">Flights</div>
+
+                </div>
+
+                <div id="travel-hotel">
+
+                    <div id="travel-hotel-icon">
+                        <i class="fa-solid fa-hotel"></i>
+                    </div>
+
+                    <div id="travel-hotel-text">Hotels</div>
+
+                </div>
+
+                <div id="travel-homestay">
+
+                    <div id="travel-homestay-icon">
+                        <i class="fa-solid fa-house-chimney"></i>
+                    </div>
+
+                    <div id="travel-homestay-text">Homestays & Villas</div>
+
+                </div>
+
+                <div id="travel-holiday">
+
+                    <div id="travel-holiday-icon">
+                        <i class="fa-solid fa-umbrella-beach"></i>
+                    </div>
+
+                    <div id="travel-holiday-text">Holiday</div>
+                    <div id="travel-holiday-text">Packages</div>
+
+                </div>
+
+                <div id="travel-train">
+
+                    <div id="travel-train-icon">
+                        <i class="fa-solid fa-train"></i>
+                    </div>
+
+                    <div id="travel-train-text">Trains</div>
+
+                </div>
+
+                <div id="travel-bus">
+
+                    <div id="travel-bus-icon">
+                        <i class="fa-solid fa-bus"></i>
+                    </div>
+
+                    <div id="travel-bus-text">Buses</div>
+
+                </div>
+
+                <div id="travel-cab">
+
+                    <div id="travel-cab-icon">
+                        <i class="fa-solid fa-taxi"></i>
+                    </div>
+
+                    <div id="travel-cab-text">Cabs</div>
+
+                </div>
+
+                <div id="travel-currency">
+
+                    <div id="travel-currency-icon">
+                        <i class="fa-solid fa-credit-card"></i>
+                    </div>
+
+                    <div id="travel-currency-text">Forex Card & </div>
+                    <div id="travel-currency-text">Currency</div>
+
+                </div>
+
+                <div id="travel-insurance">
+
+                    <div id="travel-insurance-icon">
+                        <i class="fa-solid fa-plane-lock"></i>
+                    </div>
+
+                    <div id="travel-insurance-text">Travel</div>
+                    <div id="travel-insurance-text">Insurance</div>
+
+                </div>
+
+            
+        </div>
+    </nav>
+
+    <div class="flight-bar">
+        <nav class="flight-bar-container">
+
+            <div class="trip-flight-header">
+
+                <div class="trip-flight-type">
+
+                    <div class="trip-one-way">
+                        <input type="radio" class="trip-radio">
+                        <span id="one-way-text">One Way</span>
+                    </div>
+
+                    <div class="trip-round-trip">
+                        <input type="radio" class="trip-radio">
+                        <span id="round-trip-text">Round Trip</span>
+                    </div>
+
+                    <div class="trip-multi-city">
+                        <input type="radio" class="trip-radio">
+                        <span id="multi-city-text">Multi City</span>
+                    </div>
+
+                </div>
+
+                <div class="trip-book-option">
+                    <span id="trip-book-option-text">Book International and Domestic Flights</span>
+                </div>
+
+            </div>
+
+            <div class="flight-booking">
+
+                <div class="flight-booking-nav">
+
+                    <div class="flight-booking-from">
+
+                        <div class="flight-from">
+                            <span class="flight-from-text">From</span>
+                           <button class="flight-from-button">Delhi</button>
+                            <span class="flight-from-iata-code">DEL,Delhi Airport India</span>
+                        </div>
+
+                    </div>
+
+                    <div class="flight-booking-to">
+
+                        <div class="flight-to">
+                            <span class="flight-to-text">To</span>
+                            <button class="flight-to-button">Bengaluru</button>
+                            <span class="flight-to-iata-code">BLR,Bengaluru Airport India</span>
+                        </div>
+
+                    </div>
+
+                    <div class="flight-booking-departure">
+
+                        <div class="flight-departure">
+
+                            <div class="flight-departure-icon">
+                                <span class="flight-departure-text">Departure</span>
+                                <i class="fa-solid fa-caret-down"></i>
+                            </div>
+                            <button class="flight-departure-button">31st Dec'24</button>
+
+                            <span class="flight-departure-day">Tuesday</span>
+                        </div>
+
+                    </div>
+
+                    <div class="flight-booking-return">
+
+                        <div class="flight-return">
+
+                            <div class="flight-return-icon">
+                                <span class="flight-return-text">Return</span>
+                                <i class="fa-solid fa-caret-down"></i>
+                                <i class="fa-solid fa-circle-xmark"></i>
+                            </div>
+
+                            <button class="flight-return-button">1st Jan'25</button>
+                            <span class="flight-return-day">Wednesday</span>
+                        </div>
+
+                    </div>
+
+                    <div class="flight-booking-travel-class">
+
+                        <div class="flight-travel-class">
+
+                            <div class="flight-travel-class-icon">
+                                <span class="flight-travel-class-text">Travellers & Class</span>
+                                <i class="fa-solid fa-caret-down"></i>
+                            </div>
+
+                            <button class="flight-travel-class-button">1 Traveller</button>
+                            <span class="flight-travel-class-name">Economy/Premium Economy</span>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="flight-special-fare">
+
+                <div class="flight-special-fare-items">
+
+                    <div class="flight-special-fare-banner">
+                        <span class="flight-special-fare-select-text">Select special fare</span>
+                        <span class="flight-special-fare-savings-text">EXTRA SAVINGS</span>
+                    </div>
+
+                    <div class="flight-regular-container">
+
+                        <div class="flight-regular">
+
+                            <div class="flight-regular-text">
+                                <input type="radio">
+                                <span class="flight-regular-heading">Regular</span>
+                            </div>
+
+                            <span class="flight-special-fare-description">Regular fares</span>
+
+                        </div>
+
+                    </div>
+
+                    <div class="flight-student-container">
+
+                        <div class="flight-student">
+
+                            <div class="flight-student-text">
+                                <input type="radio">
+                                <span class="flight-special-fare-heading">Student</span>
+                            </div>
+
+                            <span class="flight-special-fare-description">Extra discounts/baggage</span>
+
+                        </div>
+
+                    </div>
+
+                    <div class="flight-armed-container">
+
+                        <div class="flight-senior">
+
+                            <div class="flight-senior-text">
+                                <input type="radio">
+                                <span class="flight-special-fare-heading">Senior Citizen</span>
+                            </div>
+
+                            <span class="flight-special-fare-description">Up to INR 600 off</span>
+
+                        </div>
+
+                    </div>
+
+                    <div class="flight-armed-container">
+
+                        <div class="flight-armed">
+
+                            <div class="flight-armed-text">
+                                <input type="radio">
+                                <span class="flight-special-fare-heading">Armed Forces</span>
+                            </div>
+
+                            <span class="flight-special-fare-description">Up to INR 600 off</span>
+
+                        </div>
+
+                    </div>
+
+                    <div class="flight-doctor-container">
+
+                        <div class="flight-doctor">
+
+                            <div class="flight-doctor-text">
+                                <input type="radio">
+                                <span class="flight-special-fare-heading">Doctor and Nurses</span>
+                            </div>
+
+                            <span class="flight-special-fare-description">Up to INR 600 off</span>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </nav>
+    </div>
+    
+        
+            <button id="flight-search-button">SEARCH</button>
+
+</header>
+
+<footer id="mmt-footer">
+
+    <div class="footer-links-container">
+        <p>
+            <b class="footer-links-heading">MAKEMYTRIP</b>
+        <p class="footer-links-description">About Us, Investor Relations, Careers, Sustainability, MMT Foundation, Legal
+            Notices, CSR Policy & Committee, myPartner - Travel Agent Portal, List your hotel, Partners- Redbus,
+            Partners- Goibibo, Advertise with Us, Holiday-Franchise, Partners- BookMyForex, RedBus Ferry Malaysia,
+            RedBus Ferry Singapore, redBus Vietnam, redBus Cambodia, Things to Do in Malaysia, Things to Do in Singapore
+        </p>
+        </p>
+
+        <p>
+            <b class="footer-links-heading">Quick Links</b>
+        <p class="footer-links-description">Delhi Chennai Flights, Delhi Mumbai Flights, Delhi Goa Flights, Chennai
+            Mumbai flights, Mumbai Hyderabad flights, Kolkata to Rupsi Flights, Rupsi to Guwahati Flights, Pasighat to
+            Guwahati Flights, Delhi to Khajuraho Flights, Cochin to Agatti Island Flights, Hotels in Delhi, Hotels in
+            Mumbai, Hotels In Goa, Hotels In Jaipur, Hotels In Ooty, Hotels In Udaipur, Hotels in Puri, Hotels In North
+            Goa, Hotels In Rishikesh, Honeymoon Packages, Kerala Packages, Kashmir Packages, Ladakh Packages, Goa
+            Packages, Thailand Packages, Sri Lanka Visa, Thailand Visa, Explore Goa, Explore Manali, Explore Shimla,
+            Explore Jaipur, Explore Srinagar</p>
+        </p>
+
+        <p>
+            <b class="footer-links-heading">About the Site</b>
+        <p class="footer-links-description">Customer Support, Payment Security, Privacy Policy, Cookie Policy, User
+            Agreement, Terms of Service, Franchise Offices, Make A Payment, Work From Home, Escalation Channel, Report
+            Security Issues
+        </p>
+        </p>
+
+    </div>
+
+    <div class="footer-mmt">
+        <div class="footer-mmt-links-container">
+
+            <div class="footer-mmt-links">
+
+                <div class="footer-instagram">
+                    <i class="fa-brands fa-instagram"></i>
+                </div>
+                <div class="footer-twitter">
+                    <i class="fa-brands fa-x-twitter"></i>
+                </div>
+                <div class="footer-linkedin">
+                    <i class="fa-brands fa-linkedin"></i>
+                </div>
+                <div class="footer-facebook">
+                    <i class="fa-brands fa-facebook-f"></i>
+                </div>
+                <i class="fa-brands fa-facebook-f"></i>
+
+            </div>
+
+        </div>
+
+        <div class="footer-mmt-trademark-container">
+                 <span class="footer-mmt-trademark-heading">© 2025 MAKEMYTRIP PVT. LTD.</span>
+                <span class="footer-mmt-trademark-description">Country India USA UAE</span>
+            </div>
+        </div>
+
+    </div>
+
+
+</footer>
+
+
+
+
+
+</html>  

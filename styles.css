@@ -1,0 +1,1121 @@
+* {
+    margin: 0;
+    font-family: Lato, sans-serif;
+
+    border: border-box;
+}
+
+#mmt-header {
+    background-image: url(Images/header-img.jpeg);
+    background-size: cover;
+
+    height: 600px;
+
+}
+
+.nav-bar {
+    height: 48px;
+
+    display: flex;
+
+    justify-content: space-evenly;
+
+
+
+}
+
+/* LOGO  */
+
+.nav-logo {
+    width: 122px;
+    height: 38px;
+}
+
+.logo {
+    background-image: url(Images/mmt-logo.avif);
+    background-size: cover;
+
+    height: 38px;
+    width: 122px;
+
+}
+
+/* PROPERTY  */
+
+.property {
+    width: 155px;
+    height: 43px;
+
+    display: flex;
+    align-items: center;
+}
+
+.property-detail {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#list-property {
+    color: white;
+    width: 93px;
+    height: 11px;
+    font-size: 11px;
+
+}
+
+#grow-business {
+    color: #c2c2c2;
+    width: 104px;
+    height: 10px;
+    font-size: 10px;
+}
+
+.property-icon {
+    width: 32px;
+    height: 33px;
+
+    display: flex;
+    align-items: center;
+
+    color: yellow;
+    font-size: 1.3rem;
+
+}
+
+/* My Biz  */
+
+.my-biz {
+    width: 196px;
+    height: 42px;
+
+    display: flex;
+    justify-content: space-evenly;
+
+
+}
+
+.my-biz-icon-container {
+    width: 68px;
+    height: 22px;
+    display: flex;
+    align-content: center;
+    margin-right: 8px;
+}
+
+.my-biz-icon {
+    background-image: url(Images/my-biz-img.png);
+    background-size: cover;
+
+    width: 60px;
+    height: 30px;
+
+    margin-top: 7px;
+
+}
+
+#my-biz-intro {
+    color: white;
+    width: 114px;
+    height: 17px;
+    font-size: 14px;
+}
+
+#my-biz-business {
+    color: white;
+    width: 114px;
+    height: 10px;
+    font-size: 10px;
+}
+
+/* My Trip  */
+
+.my-trip {
+    width: 150px;
+    height: 42px;
+
+    display: flex;
+    align-items: flex-start;
+
+
+}
+
+.my-trip-icon {
+
+    width: 60px;
+    height: 40px;
+
+    color: orange;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 1.5rem;
+
+}
+
+.my-trip-detail {
+    margin-top: 7px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#my-trip-intro {
+    color: white;
+    width: 102px;
+    height: 11px;
+    font-size: 11px;
+}
+
+#my-trip-booking {
+    color: white;
+    width: 102px;
+    height: 10px;
+    font-size: 10px;
+}
+
+/* My Account  */
+
+.my-account {
+    width: 216px;
+    height: 42px;
+
+    margin-left: 14px;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+
+    border-radius: 5px;
+    background-color: rgb(95, 197, 231);
+
+    position: relative;
+    top:5px;
+
+}
+
+.my-account-mmt-icon {
+
+    width: 23px;
+    height: 22px;
+
+    background-image: url(Images/mmt-login-icon.svg);
+    background-size: cover;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 7px;
+
+    font-size: 1.3rem;
+
+}
+
+#my-account-intro {
+    color: white;
+    width: 155px;
+    height: 10px;
+    font-size: 10px;
+    position: relative;
+    top:7px;
+}
+
+.my-account-mmt-drop-down-icon {
+    width: 12px;
+    height: 12px;
+    margin-top: 10px;
+    color: white;
+}
+
+/* My Country  */
+
+.my-country {
+    width: 150px;
+    height: 42px;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+
+}
+
+.my-country-icon {
+
+    width: 60px;
+    height: 43px;
+
+    background-image: url(Images/mmt-india-flag.png);
+    background-size: cover;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 7px;
+
+    background-size: 4rem;
+
+
+}
+
+#my-country-intro {
+    color: white;
+    width: 155px;
+    height: 10px;
+    font-size: 14px;
+    position: relative;
+    top:7px;
+}
+
+.my-country-mmt-drop-down-icon {
+    color: white;
+    width: 12px;
+    height: 12px;
+    margin-top: 10px;
+}
+
+/* Currency */
+
+.my-currency {
+    width: 150px;
+    height: 42px;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+
+
+}
+
+#my-currency-intro {
+    color: white;
+    width: 155px;
+    height: 10px;
+    font-size: 14px;
+
+    position: relative;
+    top:7px;
+}
+
+.my-currency-mmt-drop-down-icon {
+    color: white;
+    width: 12px;
+    height: 12px;
+    margin-top: 10px;
+}
+
+/* Travel Bar  */
+
+
+.travel-bar {
+    
+    height: 100px;  
+
+    background-color: transparent;
+
+    margin-left: 260px;
+
+
+    border-radius: 7px;
+    position: relative;
+    top: 15px;
+    box-shadow: #008cff;
+    
+
+}
+
+.travel-options-container{
+    width: 868px;
+    height: 81px;
+
+    padding: 5px;
+
+    background-color: white;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+
+    border-radius: 7px;
+
+    z-index: 5;
+
+    position: relative;
+    bottom: -45px;
+
+    margin-top: 100px;
+
+    box-shadow: 0 2px 20px 0 ;
+    
+}
+
+.travel-options {
+    width: 868px;
+    height: 81px;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+  
+
+}
+
+.trip-book-option-text{
+    width: 280px;
+    height: 18px;
+    color: #4a4a4a;
+    font-size: 14px;
+}
+
+.flight-from-button{
+    width: 260px;
+    height: 36px;
+    background-color: transparent;
+    font-weight:bold;
+    border: transparent;
+    font-size:xx-large;
+}
+.flight-to-button{
+    width: 260px;
+    height: 36px;
+    background-color: transparent;
+    font-weight:bold;
+    border: transparent;
+    font-size:xx-large;
+}
+.flight-departure-button{
+    width: 120px;
+    height: 25px;
+    background-color: transparent;
+    font-weight:bold;
+    border: transparent;
+    font-size:large;
+}
+.flight-return-button{
+    width: 120px;
+    height: 36px;
+    background-color: transparent;
+    font-weight:bold;
+    border: transparent;
+    font-size:large;
+}
+.flight-travel-class-button{
+    width: 120px;
+    height: 36px;
+    background-color: transparent;
+    font-weight:bold;
+    border: transparent;
+    font-size:large;
+}
+
+/* Flight  */
+
+.travel-flight {
+    width: 52px;
+    height: 64px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    text-decoration: none;
+
+}
+
+#travel-flight-icon {
+    width: 40px;
+    height: 35px;
+
+    display: flex;
+    justify-content: center;
+
+    color: #008cff;
+
+}
+
+#travel-flight-text {
+    color: #008cff;
+}
+
+/* Hotel */
+
+.travel-hotel {
+    width: 52px;
+    height: 64px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    text-decoration: none;
+
+}
+
+#travel-hotel-icon {
+    width: 40px;
+    height: 35px;
+
+    display: flex;
+    justify-content: center;
+
+}
+
+#travel-hotel-text {
+    color: #4a4a4a;
+    font-size: 14px;
+}
+
+
+
+/* Homestay */
+
+.travel-homestay {
+    width: 52px;
+    height: 64px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    text-decoration: none;
+
+}
+
+#travel-homestay-icon {
+    width: 40px;
+    height: 35px;
+
+    display: flex;
+    justify-content: center;
+
+}
+
+#travel-homestay-text {
+    color: #4a4a4a;
+    font-size: 14px;
+}
+
+/* Holiday */
+
+.travel-holiday {
+    width: 52px;
+    height: 64px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    text-decoration: none;
+
+}
+
+#travel-holiday-icon {
+    width: 40px;
+    height: 35px;
+
+    display: flex;
+    justify-content: center;
+
+}
+
+#travel-holiday-text {
+    color: #4a4a4a;
+    font-size: 14px;
+}
+
+/* Trains */
+
+.travel-train {
+    width: 52px;
+    height: 64px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    text-decoration: none;
+
+}
+
+#travel-train-icon {
+    width: 40px;
+    height: 35px;
+
+    display: flex;
+    justify-content: center;
+
+}
+
+#travel-train-text {
+    color: #4a4a4a;
+    font-size: 14px;
+}
+
+/* Bus */
+
+.travel-bus {
+    width: 52px;
+    height: 64px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    text-decoration: none;
+
+}
+
+#travel-bus-icon {
+    width: 40px;
+    height: 35px;
+
+    display: flex;
+    justify-content: center;
+
+}
+
+#travel-bus-text {
+    color: #4a4a4a;
+    font-size: 14px;
+}
+
+/* Cab */
+
+.travel-cab {
+    width: 52px;
+    height: 64px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    text-decoration: none;
+
+}
+
+#travel-cab-icon {
+    width: 40px;
+    height: 35px;
+
+    display: flex;
+    justify-content: center;
+
+}
+
+#travel-cab-text {
+    color: #4a4a4a;
+    font-size: 14px;
+}
+
+/* Forex Card and Currency */
+
+.travel-currency {
+    width: 52px;
+    height: 64px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    text-decoration: none;
+
+}
+
+#travel-currency-icon {
+    width: 40px;
+    height: 35px;
+
+    display: flex;
+    justify-content: center;
+
+}
+
+#travel-currency-text {
+    color: #4a4a4a;
+    font-size: 14px;
+}
+
+/* Travel Insurance */
+
+.travel-insurance {
+    width: 52px;
+    height: 64px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    text-decoration: none;
+
+}
+
+#travel-insurance-icon {
+    width: 40px;
+    height: 35px;
+
+    display: flex;
+    justify-content: center;
+
+}
+
+#travel-insurance-text {
+    color: #4a4a4a;
+    font-size: 14px;
+}
+
+/* Trip Type -> Flight  */
+
+.flight-bar-container {
+    width: 1200px;
+    height: 333px;
+    background-color: white;
+
+    border-radius: 7px;
+
+    z-index: 2;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    box-shadow: 0 2px 20px 0 ;
+}
+
+.flight-bar {
+    width: 1200px;
+    height: 333px;
+    background-color: white;
+
+    margin-left: 100px;
+
+    border-radius: 7px;
+
+    z-index: 1;
+
+}
+
+.trip-flight-header{
+    width: 1160px;
+    height: 21px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.trip-flight-type{
+    width: 400px;
+    height: 21px;
+
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+#one-way-text{
+    background-color: #eaf5ff;
+    font-weight: bold;
+}
+
+/* Trip Content -> Flight  */
+
+.flight-booking-nav{
+    width: 1200px;
+    height: 114px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.flight-booking-from{
+    width: 300px;
+    height: 100px;
+    border: grey solid 1px;
+}
+
+.flight-from{
+    width: 300px;
+    height: 100px;
+    display: flex;
+
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.flight-booking-to{
+    width: 300px;
+    height: 100px;
+    border: grey solid 1px;
+    border-left: none;
+}
+
+.flight-to{
+    width: 300px;
+    height: 100px;
+    display: flex;
+
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.flight-booking-departure{
+    width: 155px;
+    height: 100px;
+    border: grey solid 1px;
+    border-left: none;
+}
+
+.flight-departure{
+    width: 155px;
+    height: 100px;
+    display: flex;
+
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.flight-departure-icon{
+    width: 120px;
+    height: 17px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.flight-booking-return{
+    width: 155px;
+    height: 100px;
+    border: grey solid 1px;
+    border-left: none;
+}
+
+.flight-return{
+    width: 155px;
+    height: 100px;
+    display: flex;
+
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.flight-return-icon{
+    width: 120px;
+    height: 17px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.flight-booking-travel-class{
+    width: 155px;
+    height: 100px;
+    border: grey solid 1px;
+    border-left: none;
+}
+
+.flight-travel-class{
+    width: 155px;
+    height: 100px;
+    display: flex;
+
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.flight-travel-class-icon{
+    width: 210px;
+    height: 17px;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.flight-from-text{
+    color: #4a4a4a;
+    font-size: 14px;
+}
+.flight-to-text{
+    color: #4a4a4a;
+    font-size: 14px;
+}
+.flight-departure-text{
+    color: #4a4a4a;
+    font-size: 14px;
+}
+.flight-return-text{
+    color: #4a4a4a;
+    font-size: 14px;
+}
+.flight-travel-class-text{
+    color: #4a4a4a;
+    font-size: 14px;
+}
+.flight-from-iata-code{
+    color: #4a4a4a;
+    font-size: 14px;
+}
+.flight-to-iata-code{
+    color: #4a4a4a;
+    font-size: 14px;
+}
+.flight-departure-day{
+    color: #4a4a4a;
+    font-size: 14px;
+}
+.flight-return-day{
+    color: #4a4a4a;
+    font-size: 14px;
+}
+.flight-travel-class-name{
+    color: #4a4a4a;
+    font-size: 14px;
+    margin-left: 5px;
+}
+
+/* Flight Special Fare  */
+
+.flight-special-fare{
+    width: 1160px;
+    height: 55px;
+}
+
+.flight-special-fare-items{
+    width: 1160px;
+    height: 55px;
+
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.flight-special-fare-banner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.flight-special-fare-select-text{
+    color: black;
+    font-weight: bolder;
+}
+
+.flight-special-fare-savings-text{
+    background-color: green;
+    color: white;
+    font-weight: bold;
+}
+
+.flight-regular-container{
+    width: 124px;
+    height: 55px;
+    background-color: #eaf5ff;
+    border: 1px solid #008cff;
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.flight-regular-heading{
+    color: #008cff;
+    margin-left: 4px;
+}
+
+.flight-special-fare-description{
+    color: #757575;
+    font-size: 12px;
+    margin-left: 20px;
+}
+
+.flight-special-fare-heading{
+    color:#4a4a4a;
+    margin-left: 4px;
+}
+
+.flight-student-container{
+    width: 182px;
+    height: 55px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.flight-senior-container{
+    width: 182px;
+    height: 55px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.flight-armed-container{
+    width: 182px;
+    height: 55px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.flight-doctor-container{
+    width: 182px;
+    height: 55px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.flight-search-container{
+    width: 216px;
+    height: 44px;
+}
+
+.flight-search{
+    width: 216px;
+    height: 44px;
+    border-color: transparent;
+    border-radius: 10px;
+}
+
+#flight-search-button{
+    background-color: #008cff;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+
+    z-index: 4;
+    box-shadow: 0 2px 20px 0;
+
+    border: transparent;
+    border-radius: 7px;
+
+    position: relative;
+    right: -625px;
+    bottom: 20px;
+
+}
+
+/* MMT FOOTER  */
+
+
+/* FOOTER EXTERNAL LINKS  */
+
+.mmt-footer{
+    width: 1200px;
+    height: 300px;
+}
+
+.footer-links-container{
+    width: 1200px;
+    height: 150px;
+    margin-top: 30px;
+    margin-left: 100px;
+}
+
+.footer-links-heading{
+    font-size: 10px;
+}
+
+.footer-links-description{
+    color: #4a4a4a;
+    font-size: 12px;
+}
+
+/* FOOTER MMT LINKS  */
+
+.footer-mmt{
+    height: 150px;
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer-mmt-links-container{
+    width: 275px;
+    height: 150px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 500px;
+}
+
+.footer-mmt-links{
+    width: 275px;
+    height: max-content;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer-mmt-trademark-container{
+    width: 235px;
+    height: 150px;
+
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.footer-mmt-trademark{
+    width: 235px;
+    height: 50px;
+
+    background-color: black;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.footer-mmt-trademark-heading{
+    width: 250px;
+    height: 30px;
+
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.footer-mmt-trademark-description{
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.footer-instagram{
+    width: 47px;
+    height: 46px;
+    color: white;
+    font-size: 3rem;
+}
+
+.footer-twitter{
+    width: 47px;
+    height: 46px;
+    color: white;
+    font-size: 3rem;
+}
+
+.footer-linkedin{
+    width: 47px;
+    height: 46px;
+    color: white;
+    font-size: 3rem;
+}
+
+.footer-facebook{
+    width: 47px;
+    height: 46px;
+    color: white;
+    font-size: 3rem;
+}
